@@ -6,28 +6,28 @@
 
 # INTRODUÇÃO
 
-Desenvolver uma aplicação utilizando a linguagem funcional Haskell.
+Criação de um programa simples em Haskell para gerenciar um kit de sobrevivência.
 
 # 🛠 PRÉ REQUISITOS
 
-É necessária possuir alguma versão do [Haskell](https://www.haskell.org/ghcup/install/) instalado em sua máquina.
+É necessária possuir alguma versão do [Haskell](https://www.haskell.org/) instalado em sua máquina.
 
 # ⚙ INICIALIZAÇÃO
 
-Para utilizar o projeto, primeiro compile o arquivo:
+Para utilizar o projeto, primeiro instale a biblioteca Random.
 
 ```bash
-    ghc -o kit kit.hs
+    cabal install --lib random
 ```
 
-Após isso, rode o mesmo.
+Após isso, compile o programa
 
-Linux
 ```bash
-    ./kit
+    ghc -o Trabalho Trabalho.hs
 ```
 
-Windows
+E por fim, rode o mesmo
+
 ```bash
-  .\kit.exe
+    ./Trabalho
 ```
